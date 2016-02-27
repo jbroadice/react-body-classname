@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react'),
-  uniq = require('lodash.uniq'),
+  uniq = require('lodash/uniq'),
   withSideEffect = require('react-side-effect');
 
 function reducePropsToState(propsList) {
